@@ -13,6 +13,7 @@
 		7AC70C411B5389E900F44395 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AC70C401B5389E900F44395 /* QuartzCore.framework */; };
 		7AC70C431B5389FF00F44395 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AC70C421B5389FF00F44395 /* CoreText.framework */; };
 		7AC70C451B538A0B00F44395 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AC70C441B538A0B00F44395 /* MobileCoreServices.framework */; };
+		7AC70C471B539D3800F44395 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC70C461B539D3800F44395 /* CustomCell.swift */; };
 		7AEDC0D61B5361CD00EDEF40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEDC0D51B5361CD00EDEF40 /* AppDelegate.swift */; };
 		7AEDC0D81B5361CD00EDEF40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEDC0D71B5361CD00EDEF40 /* ViewController.swift */; };
 		7AEDC0DB1B5361CD00EDEF40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AEDC0D91B5361CD00EDEF40 /* Main.storyboard */; };
@@ -94,6 +95,7 @@
 		7AC70C401B5389E900F44395 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		7AC70C421B5389FF00F44395 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		7AC70C441B538A0B00F44395 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		7AC70C461B539D3800F44395 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		7AEDC0D01B5361CD00EDEF40 /* DTCoreTextSpike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DTCoreTextSpike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AEDC0D41B5361CD00EDEF40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7AEDC0D51B5361CD00EDEF40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -186,6 +188,7 @@
 				7AEDC0DC1B5361CD00EDEF40 /* Images.xcassets */,
 				7AEDC0DE1B5361CD00EDEF40 /* LaunchScreen.xib */,
 				7AEDC0D31B5361CD00EDEF40 /* Supporting Files */,
+				7AC70C461B539D3800F44395 /* CustomCell.swift */,
 			);
 			path = DTCoreTextSpike;
 			sourceTree = "<group>";
@@ -381,6 +384,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AEDC0D81B5361CD00EDEF40 /* ViewController.swift in Sources */,
+				7AC70C471B539D3800F44395 /* CustomCell.swift in Sources */,
 				7AEDC0D61B5361CD00EDEF40 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
