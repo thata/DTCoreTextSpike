@@ -39,10 +39,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
 //        let object = objects[indexPath.row] as! NSDate
 //        cell.textLabel!.text = "おしんこ"
-        var customCell = cell as! CustomCell
-        var data = "<p>hi".dataUsingEncoding(NSUTF8StringEncoding, allowLossyConversion: true)
-        customCell.hi.attributedString = NSAttributedString(HTMLData: data, documentAttributes: nil)
         
+        var attributedCell = cell as! DTAttributedTextCell
+        var data = "<p style='color: red'>hi".dataUsingEncoding(NSUTF8StringEncoding, allowLossyConversion: true)
+        attributedCell.attributedString = NSAttributedString(HTMLData: data, documentAttributes: nil)
+
         return cell
     }
     
